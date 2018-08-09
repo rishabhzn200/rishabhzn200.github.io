@@ -1,0 +1,121 @@
+text {
+    font-family: sans-serif;
+}
+
+.bar {
+    fill: cornflowerblue;
+}
+
+.bar:hover {
+    fill: #ff4d54;
+
+}
+
+
+.axis--x path {
+    display: none;
+}
+
+.skills {
+    font-style: italic;
+    align-content: left;
+}
+
+.pskillslist {
+    margin: 10px 0;
+    padding: 5px;
+    border: 1px solid #999;
+    text-decoration-color: darkorange;
+    color: #465ee9;
+}
+
+.paradiv1 {
+    /*margin: 5px 0;*/
+    padding: 2px;
+    font-style: oblique;
+    font-size: large;
+    /*background-color: #f1d145;*/
+
+    text-shadow: 2px 2px 5px darkturquoise;
+
+    /*box-shadow: 0 4px 8px 0 rgba(102, 255, 33, 0.2), 0 6px 20px 0 rgba(236, 81, 218, 0.19);*/
+    text-align: center;
+
+    /*border: 1px solid #999;*/
+    /*text-shadow: 0 1px 0 #ccc,*/
+                /*0 2px 0 #c9c9c9,*/
+                /*0 3px 0 #bbb,*/
+                /*0 4px 0 #b9b9b9,*/
+                /*0 5px 0 #aaa,*/
+                /*0 6px 1px rgba(0,0,0,.1),*/
+                /*0 0 5px rgba(0,0,0,.1),*/
+                /*0 1px 3px rgba(0,0,0,.3),*/
+                /*0 3px 5px rgba(0,0,0,.2),*/
+                /*0 5px 10px rgba(0,0,0,.25),*/
+                /*0 10px 10px rgba(0,0,0,.2),*/
+                /*0 20px 20px rgba(0,0,0,.15);*/
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typing 50ms steps(40, end), blink-caret .75s step-end paused;
+}
+
+.paradiv2 {
+    /*margin: 5px 0;*/
+    padding: 2px;
+    font-style: oblique;
+    font-size: large;
+    /*background-color: #f1d145;*/
+
+    text-shadow: 2px 2px 5px darkturquoise;
+
+    /*box-shadow: 0 4px 8px 0 rgba(102, 255, 33, 0.2), 0 6px 20px 0 rgba(236, 81, 218, 0.19);*/
+    text-align: center;
+
+    /*border: 1px solid #999;*/
+    /*text-shadow: 0 1px 0 #ccc,*/
+    /*0 2px 0 #c9c9c9,*/
+    /*0 3px 0 #bbb,*/
+    /*0 4px 0 #b9b9b9,*/
+    /*0 5px 0 #aaa,*/
+    /*0 6px 1px rgba(0,0,0,.1),*/
+    /*0 0 5px rgba(0,0,0,.1),*/
+    /*0 1px 3px rgba(0,0,0,.3),*/
+    /*0 3px 5px rgba(0,0,0,.2),*/
+    /*0 5px 10px rgba(0,0,0,.25),*/
+    /*0 10px 10px rgba(0,0,0,.2),*/
+    /*0 20px 20px rgba(0,0,0,.15);*/
+
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid orange; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: typing 1.0s steps(40, end), blink-caret .75s step-end paused;
+
+}
+
+/* The typing effect */
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+}
+
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+}
+
+
+/*.short-time-msg {*/
+    /*color:blue;*/
+    /*background:lightblue;*/
+    /*font-weight:bolder;*/
+    /*!*visibility: hidden;*!*/
+
+/*}*/

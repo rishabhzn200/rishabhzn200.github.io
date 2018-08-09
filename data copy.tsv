@@ -1,0 +1,7 @@
+letter	frequency	skills
+Python	.95	Matplotlib,Seaborn,Tensorflow,Sklearn,PySpark
+Java	.70	Java,J2EE
+C	.95	OpenGL
+DataViz	.90	d3,Bokeh,Seaborn
+Databases	.80	MySQL,Cassandra,RabbitMQ
+Web Dev	.70	HTML,CSS,Javascript
