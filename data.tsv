@@ -3,6 +3,6 @@ Python	.96	OpenCV,BeautifulSoup, Other libraries
 ML	.80	Scikit-learn,Tensorflow,Numpy,Pandas,Gensim,NLTK,Pyspark,Multiprocessing,mpi4py
 DataViz	.90	Matplotlib,D3js,PyDot
 C	.90	C
-Databases	.80	MySQL
+Databases	.80	MySQL,Postgres
 Web Dev	.70	HTML,CSS,Javascript
 AWS	.70	EC2,Lambda,S3,SES,API Gateway
