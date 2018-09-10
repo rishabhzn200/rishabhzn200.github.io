@@ -1,6 +1,6 @@
 letter	frequency	skills
 Python	.96	OpenCV,BeautifulSoup,Flask/Jinja2,Other libraries
-ML	.80	Scikit-learn,Tensorflow,Numpy,Pandas,Gensim,NLTK,Pyspark,Multiprocessing,mpi4py
+ML	.80	Scikit-learn,Tensorflow,Numpy,Pandas,Gensim,NLTK,Pyspark,DASK,Multiprocessing,mpi4py
 DataViz	.90	Bokeh,Matplotlib,D3js,PyDot
 C	.90	C
 Databases	.80	MySQL,Postgres
