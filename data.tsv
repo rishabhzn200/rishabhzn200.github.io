@@ -5,4 +5,4 @@ DataViz	.90	Bokeh,Matplotlib,D3js,PyDot
 C	.90	C
 Databases	.80	MySQL,Postgres
 Web Dev	.70	HTML,CSS,Javascript
-AWS	.70	EC2,Lambda,S3,SES,API Gateway
+AWS	.85	Lambda,Dynamo,SQS,EC2,S3,SES,API Gateway
