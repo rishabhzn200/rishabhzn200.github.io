@@ -1,9 +1,9 @@
 letter	frequency	skills
 Java	.90	Java
-Python	.90	OpenCV,BeautifulSoup,Flask/Jinja2,Other libraries
-C	.80	C
+Python	.90	BeautifulSoup,Flask/Jinja2,Other libraries
 ML	.70	Scikit-learn,Tensorflow,Numpy,Pandas,Gensim,NLTK,Pyspark,DASK,Multiprocessing,mpi4py
 DataViz	.85	Bokeh,Matplotlib,D3js,PyDot
+C	.80	C
 Databases	.80	RocksDB,MySQL,Postgres,DynamoDB
 Web Dev	.70	HTML,CSS,Javascript
-AWS Services	.90	SNS/SQS,Lambda/EC2/StepFn,Cloudformation(CDK),Glue/Athena,Cloudwatch,SES,Dynamo
+AWS	.90	SNS/SQS,Lambda/EC2/StepFn,Cloudformation(CDK),Glue/Athena,Cloudwatch,SES,Dynamo
