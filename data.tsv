@@ -1,8 +1,9 @@
 letter	frequency	skills
-Python	.96	OpenCV,BeautifulSoup,Flask/Jinja2,Other libraries
-ML	.80	Scikit-learn,Tensorflow,Numpy,Pandas,Gensim,NLTK,Pyspark,DASK,Multiprocessing,mpi4py
-DataViz	.90	Bokeh,Matplotlib,D3js,PyDot
-C	.90	C
-Databases	.80	MySQL,Postgres
+Java	.90	Java
+Python	.90	OpenCV,BeautifulSoup,Flask/Jinja2,Other libraries
+C	.80	C
+ML	.70	Scikit-learn,Tensorflow,Numpy,Pandas,Gensim,NLTK,Pyspark,DASK,Multiprocessing,mpi4py
+DataViz	.85	Bokeh,Matplotlib,D3js,PyDot
+Databases	.80	RocksDB,MySQL,Postgres,DynamoDB
 Web Dev	.70	HTML,CSS,Javascript
-AWS	.85	Lambda,Dynamo,SQS,EC2,S3,SES,API Gateway
+AWS Services	.90	SNS/SQS,Lambda/EC2/StepFn,Cloudformation(CDK),Glue/Athena,Cloudwatch,SES,Dynamo
