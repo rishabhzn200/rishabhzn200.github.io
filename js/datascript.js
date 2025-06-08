@@ -23,9 +23,6 @@ g.append("text")
     .attr("text-anchor", "end")
     .text("Level");
 
-
-
-
 // var tip = d3.tip().attr('class', 'd3-tip')
 //     .offset([-10, 0])
 //     .html(function(d) {
@@ -55,13 +52,6 @@ function draw() {
 
     x.rangeRound([0, width]);
     y.rangeRound([height, 0]);
-
-
-
-
-
-    console.log(bounds);
-    console.log(height);
 
     g.select(".axis--x")
         .attr("transform", "translate(0," + height + ")")
