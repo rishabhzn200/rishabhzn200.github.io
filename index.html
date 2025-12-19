@@ -359,18 +359,8 @@
                                             values[field.name] = field.value;
 
                                         });
-                                        console.log(values);
-                                        // var msg = {}
-                                        // msg['subject'] = values['first-name'];
-                                        // msg['body'] = values['last-name'];
-
-                                        var data= '{"subject": "New Web Mail", "body":"Hi there. Want to talk to you"}';
                                         var quote = '"';
-
                                         var msg = '{' + '"subject":' + quote + values['name'] + "--" + values['email'] + quote + ',' + '"body":' + quote + values['message'] + quote + '}';
-
-                                        console.log(data);
-                                        console.log(msg);
 
                                         // hideAfterSomeTime(-1);
 
@@ -380,17 +370,11 @@
                                             crossDomain: true,
                                             type: 'post',
                                             contentType: 'application/json',
-                                            // data: $(this).serialize(),
                                             data: msg,
                                             success: function( data, textStatus, jQxhr ){
                                                 console.log("Message Successfully Sent");
 
                                                 alert("Message Successfully Sent.!!");
-
-                                                // console.log("My data");
-                                                // console.log($(this));
-                                                // data= '{"subject": "New Web Mail", "body":"Hi there. Want to talk to you"}'
-                                                // $('#response pre').html( data );
                                             },
                                             error: function( jqXhr, textStatus, errorThrown ){
                                                 console.log(data);
@@ -398,11 +382,7 @@
                                                 alert("Error in sending Message. Please try again.!!");
                                             }
                                         });
-
                                         e.preventDefault();
-
-
-
                                     }
 
                                     $('#my-form').submit( processForm );
@@ -410,11 +390,6 @@
 
                             </script>
                             <!-- Form submit end -->
-
-
-
-
-
 
 
 							<div class="col-4 col-12-small">
